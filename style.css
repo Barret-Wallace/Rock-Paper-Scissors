@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    font-size: 25px;
+}
+#Result, #Result2{
+    color: red;
+}
+.main{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 300px;
+}
+.com{
+    margin-left: 950px;
+    margin-top: -325px;
+}
+.fa-hand-rock, .fa-hand-paper, .fa-hand-scissors{
+    font-size: 150px;
+    color: orange;
+}
+button{
+    border-radius: 75%;
+    background-color: black;
+    padding: 30px;
+}

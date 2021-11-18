@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>R-P-S Game</title> <link rel="stylesheet" href="style.css"> <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script> <script src="main.js" defer></script>
+        <!--Usually the computer reads the code line by line. So what happens is when it sees script main.js. it goes to main .js and starts reading that file. but when we use defer keyword , it does not transfer the control to the main.js and completes the reading of other code and then finally towards the end it shifts to main.js-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Rock Paper Scissors</h1>
+        <h4 id="Result">Try Your Luck with the Computer</h4>
+        <div class="main">
+            <div class="info">
+                <h3>You: <span id="player_score">0</span></h3>
+                <div class="you">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
+            </div>
+        </div>
+        <div class="main com">
+            <div class="info">
+                <h3>You: <span id="computer_score">0</span></h3>
+                <div class="comp">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
+            </div>
+        </div>
+        <h4 id="Result2">Choose 1 to Battle the Computer</h4>
+        <div class="options">
+            <button class="fas fa-hand-rock"></button>
+            <button class="fas fa-hand-paper"></button>
+            <button class="fas fa-hand-scissors"></button>
+        </div>
+    </body>
+</html>
